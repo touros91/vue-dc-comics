@@ -49,13 +49,13 @@
         </div>
         <div class="footer-top-right-logo">
           <div class="logo">
-            <img src="@/assets/images/dc-logo-bg.png" alt="DC Logo Footer">
+            <!-- <img src="@/assets/images/dc-logo-bg.png" alt="DC Logo Footer"> -->
           </div>
         </div>
       </div>
     </div>
     
-    <div class="footer-container-bottom">
+    <div class="footer-bottom">
       <div class="container">
         <div class="sign-up">
           <a href=""><button>SIGN-UP NOW!</button></a> 
@@ -92,8 +92,10 @@ export default {
 <style lang="scss">
 @import '@/assets/style/Variables';
   .footer-container-top {
-    background-image: url('../assets/images/footer-bg.jpg');
-    background-size: cover;
+    background-image: url('../assets/images/dc-logo-bg.png'), url('../assets/images/footer-bg.jpg');
+    background-position: left 75% bottom -300%, left top;
+    background-size: 450px, cover;
+    background-repeat: no-repeat, no-repeat;
     .footer-top {
       display: flex;
       justify-content: space-between;
@@ -123,7 +125,7 @@ export default {
       }
     }
   }
-  .footer-container-bottom {
+  .footer-bottom {
     background-color: #303030;
     padding: 15px;
     .container {
