@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
-    <header>
-      <Header/>
-    </header>
+  <div id="app">      
+    <Header/>
+    
     <main>
       <Comics/>
     </main>
-    <footer>
-      <Footer/>
-    </footer>
+    
+    <Footer/>
   </div>
 </template>
 
@@ -28,5 +26,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+  @import './assets/style/General'; 
 </style>
