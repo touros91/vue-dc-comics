@@ -80,14 +80,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
     header {
-        margin-bottom: 20px;
         .container {
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            padding: 20px;
             .logo {
-                max-width: 50px;
+                max-width: 70px;
                 img {
                     width: 100%;
                 }
@@ -102,10 +102,10 @@ export default {
                             text-decoration: none;
                             color: #57535B;
                             font-weight: bold;
-                            padding-bottom: 20px;
+                            padding-bottom: 100%;
                             &.active {
                                 color: #1D8BFA;
-                                border-bottom: 5px solid #1D8BFA;
+                                border-bottom: 4px solid #1D8BFA;
                             }
                         }
                     }

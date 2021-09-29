@@ -1,5 +1,10 @@
 <template>
-    <ComicsFirstSection/>
+    <div class="first-section">
+        <div class="container">
+            Goes Content Here 
+
+        </div>
+    </div>
 </template>
 
 <script>
@@ -8,6 +13,10 @@ export default {
 }
 </script>
 
-<style scoped>
-  
+<style lang="scss" scoped>
+    .first-section {
+        background-color: #1C1C1C;
+        color: white;
+        padding: 20px;
+    }
 </style>
