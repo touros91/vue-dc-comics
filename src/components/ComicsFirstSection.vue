@@ -1,8 +1,7 @@
 <template>
     <div class="first-section">
         <div class="container">
-            Goes Content Here 
-
+            Content Goes Here
         </div>
     </div>
 </template>
