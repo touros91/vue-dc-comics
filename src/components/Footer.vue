@@ -58,31 +58,27 @@
     <div class="footer-container-bottom">
       <div class="container">
         <div class="sign-up">
-          <button>SIGN-UP NOW!</button>
+          <a href=""><button>SIGN-UP NOW!</button></a> 
         </div>
         <div class="social">
           <span>FOLLOW US</span>
           <div class="facebook">
-            <img src="@/assets/images/footer-youtube.png" alt="Facebook">
+            <a href="#"><img src="@/assets/images/footer-youtube.png" alt="Facebook"></a> 
           </div>
           <div class="twitter">
-            <img src="@/assets/images/footer-twitter.png" alt="Twitter">
+            <a href="#"><img src="@/assets/images/footer-twitter.png" alt="Twitter"></a> 
           </div>
           <div class="youtube">
-            <img src="@/assets/images/footer-youtube.png" alt="YouTube">
+            <a href="#"><img src="@/assets/images/footer-youtube.png" alt="YouTube"></a> 
           </div>
           <div class="pinterest">
-            <img src="@/assets/images/footer-pinterest.png" alt="Pinterest">
+            <a href="#"><img src="@/assets/images/footer-pinterest.png" alt="Pinterest"></a> 
           </div>
           <div class="periscope">
-            <img src="@/assets/images/footer-periscope.png" alt="Periscope">
+            <a href="#"><img src="@/assets/images/footer-periscope.png" alt="Periscope"></a> 
           </div>
-          
         </div>
-
-
-      </div>
-      
+      </div> 
     </div>
   </div>
 </template>
@@ -94,8 +90,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/assets/style/Variables';
   .footer-container-top {
     background-image: url('../assets/images/footer-bg.jpg');
+    background-size: cover;
     .footer-top {
       display: flex;
       justify-content: space-between;
@@ -137,7 +135,7 @@ export default {
           display: inline-block;
           padding: 10px;
           color: #FEFFFF;
-          border: 1px solid #0282F9;
+          border: 1px solid $mainColor;
           background-color: #303030;
 
         }
@@ -145,7 +143,7 @@ export default {
       .social {
         display: flex;
         span {
-          color: #0282F9;
+          color: $mainColor;
           align-self: center;
           margin-right: 20px;
           font-weight: bold;
@@ -155,7 +153,5 @@ export default {
         }
       }
     }
-      
   }
-
 </style>

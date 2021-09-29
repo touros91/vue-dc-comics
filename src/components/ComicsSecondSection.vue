@@ -50,10 +50,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import 'src/assets/style/Variables.scss';
     .second-section {
-        background-color: #0282F9;
+        background-color: $mainColor;
         padding: 20px;
         .icons-container {
+            padding: 0 30px;
             ul {
                 display: flex;
                 justify-content: space-between;

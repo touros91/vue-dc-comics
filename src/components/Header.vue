@@ -80,6 +80,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import 'src/assets/style/Variables.scss';
     header {
         .container {
             display: flex;
@@ -104,8 +105,8 @@ export default {
                             font-weight: bold;
                             padding-bottom: 100%;
                             &.active {
-                                color: #1D8BFA;
-                                border-bottom: 4px solid #1D8BFA;
+                                color: $mainColor;
+                                border-bottom: 4px solid $mainColor;
                             }
                         }
                     }
