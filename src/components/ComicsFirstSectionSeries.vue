@@ -109,7 +109,8 @@ export default {
     .first-section {
         background-color: #1C1C1C;
         color: white;
-        padding: 20px;
+        padding: 25px;
+        padding-bottom: 0;
         .container {
             position: relative;
             .current-series-blue-box{
@@ -118,7 +119,7 @@ export default {
                 display: inline-block;
                 padding: 5px 25px;
                 position: absolute;
-                top: -35px;
+                top: -45px;
                 left: 20px;
                 font-weight: bold;
                 font-size: 22px;
