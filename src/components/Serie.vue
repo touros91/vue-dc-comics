@@ -30,7 +30,7 @@ export default {
         }
         .serie-title {
             margin: 10px 0 40px 0;
-            font-size: 15px;  
+            font-size: 13px; 
         }
         a {
             color: white;
