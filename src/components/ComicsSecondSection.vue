@@ -1,12 +1,12 @@
 <template>
-    <div class="second-section">
+    <section class="second-section">
         <div class="container">
             <div class="icons-container">
                 <ul>
                     <li v-for="(icon, index) in icons" :key="index">
                         <div class="icon">
                             <div class="icon-img">
-                                <img :src="`images/` + icon.src">
+                                <img :src="`images/` + icon.src" :alt="icon.alt">
                             </div>  
                             <span>{{icon.name}}</span>
                         </div>
@@ -14,7 +14,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -25,23 +25,28 @@ export default {
             icons: [
                 {
                     name: 'DIGITAL COMICS',
-                    src: 'buy-comics-digital-comics.png'
+                    src: 'buy-comics-digital-comics.png',
+                    alt: 'Digital Comics'
                 },
                 {
                     name: 'DC MERCHANDISE',
-                    src: 'buy-comics-merchandise.png'
+                    src: 'buy-comics-merchandise.png',
+                    alt: 'DC Merchandise'
                 },
                 {
                     name: 'SUBSCRIPTIONS',
-                    src: 'buy-comics-subscriptions.png'
+                    src: 'buy-comics-subscriptions.png',
+                    alt: 'Subscriptions'
                 },
                 {
                     name: 'COMIC SHOP LOCATOR',
-                    src: 'buy-comics-shop-locator.png'
+                    src: 'buy-comics-shop-locator.png',
+                    alt: 'Comic Shop Locator'
                 },
                 {
                     name: 'DC POWER VISA',
-                    src: 'buy-dc-power-visa.svg'
+                    src: 'buy-dc-power-visa.svg',
+                    alt: 'DC Power Visa'
                 }
             ]
         }

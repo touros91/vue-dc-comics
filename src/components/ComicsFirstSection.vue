@@ -1,9 +1,9 @@
 <template>
-    <div class="first-section">
+    <section class="first-section">
         <div class="container">
             Content Goes Here
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
