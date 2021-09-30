@@ -21,7 +21,7 @@ export default {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: 0px 10px;
+            object-position: 0px 0px;
         }
     }
 </style>

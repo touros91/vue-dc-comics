@@ -49,7 +49,6 @@
         </div>
         <div class="footer-top-right-logo">
           <div class="logo">
-            <!-- <img src="@/assets/images/dc-logo-bg.png" alt="DC Logo Footer"> -->
           </div>
         </div>
       </div>
@@ -63,19 +62,19 @@
         <div class="social">
           <span>FOLLOW US</span>
           <div class="facebook">
-            <a href="#"><img src="@/assets/images/footer-youtube.png" alt="Facebook"></a> 
+            <a href="#"><img src="../assets/images/footer-youtube.png" alt="Facebook"></a> 
           </div>
           <div class="twitter">
-            <a href="#"><img src="@/assets/images/footer-twitter.png" alt="Twitter"></a> 
+            <a href="#"><img src="../assets/images/footer-twitter.png" alt="Twitter"></a> 
           </div>
           <div class="youtube">
-            <a href="#"><img src="@/assets/images/footer-youtube.png" alt="YouTube"></a> 
+            <a href="#"><img src="../assets/images/footer-youtube.png" alt="YouTube"></a> 
           </div>
           <div class="pinterest">
-            <a href="#"><img src="@/assets/images/footer-pinterest.png" alt="Pinterest"></a> 
+            <a href="#"><img src="../assets/images/footer-pinterest.png" alt="Pinterest"></a> 
           </div>
           <div class="periscope">
-            <a href="#"><img src="@/assets/images/footer-periscope.png" alt="Periscope"></a> 
+            <a href="#"><img src="../assets/images/footer-periscope.png" alt="Periscope"></a> 
           </div>
         </div>
       </div> 
@@ -90,7 +89,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/assets/style/Variables';
+@import '../assets/style/Variables';
   .footer-container-top {
     background-image: url('../assets/images/dc-logo-bg.png'), url('../assets/images/footer-bg.jpg');
     background-position: left 75% bottom -300%, left top;

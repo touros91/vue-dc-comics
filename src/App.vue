@@ -4,7 +4,7 @@
     
     <main>
       <Hero/>
-      <ComicsFirstSection/>
+      <ComicsFirstSectionSeries/>
       <ComicsSecondSection/>
     </main>
     
@@ -13,18 +13,18 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Hero from '@/components/Hero.vue';
-import ComicsFirstSection from '@/components/ComicsFirstSection.vue';
-import ComicsSecondSection from '@/components/ComicsSecondSection.vue';
-import Footer from '@/components/Footer.vue';
+import Header from './components/Header.vue';
+import Hero from './components/Hero.vue';
+import ComicsFirstSectionSeries from './components/ComicsFirstSectionSeries.vue';
+import ComicsSecondSection from './components/ComicsSecondSection.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Hero,
-    ComicsFirstSection,
+    ComicsFirstSectionSeries,
     ComicsSecondSection,
     Footer
   }

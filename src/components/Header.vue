@@ -1,9 +1,8 @@
 <template>
     <header>
         <div class="container">
-
             <div class="logo">
-                <img src="@/assets/images/dc-logo.png" alt="">
+                <img src="../assets/images/dc-logo.png" alt="Logo DC">
             </div>
             <div class="menu">
                 <ul>
@@ -14,7 +13,6 @@
             </div>
         </div>
     </header>
-  
 </template>
 
 <script>
@@ -80,7 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'src/assets/style/Variables.scss';
+@import '../assets/style/Variables.scss';
     header {
         .container {
             display: flex;
@@ -103,10 +101,10 @@ export default {
                             text-decoration: none;
                             color: #57535B;
                             font-weight: bold;
-                            padding-bottom: 100%;
                             &.active {
                                 color: $mainColor;
-                                border-bottom: 4px solid $mainColor;
+                                border-bottom: 3px solid $mainColor;
+                                padding-bottom: 100%;
                             }
                         }
                     }
