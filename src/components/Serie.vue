@@ -20,8 +20,8 @@ export default {
 
 <style lang="scss" scoped>
     .serie {
-        width: calc(100% / 6 - 10px);
-        margin: 0 5px;
+        width: calc(100% / 6 - 30px);
+        margin: 0 15px;
         .serie-img {
             width: 100%;
             img{

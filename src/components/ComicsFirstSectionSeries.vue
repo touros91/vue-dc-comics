@@ -15,7 +15,6 @@
 </template>
 
 <script>
-
 import Serie from '../components/Serie.vue';
 
 export default {
@@ -113,16 +112,16 @@ export default {
         padding: 20px;
         .container {
             position: relative;
-        
             .current-series-blue-box{
                 background-color: $mainColor;
                 color: white;
                 display: inline-block;
-                padding: 5px 15px;
+                padding: 5px 25px;
                 position: absolute;
                 top: -35px;
-                left: 10px;
+                left: 20px;
                 font-weight: bold;
+                font-size: 22px;
             }
             .current-series-container {
                 display: flex;

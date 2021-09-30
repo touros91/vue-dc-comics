@@ -101,9 +101,10 @@ export default {
                             text-decoration: none;
                             color: #57535B;
                             font-weight: bold;
+                            font-size: 15px;
                             &.active {
                                 color: $mainColor;
-                                border-bottom: 3px solid $mainColor;
+                                border-bottom: 5px solid $mainColor;
                                 padding-bottom: 100%;
                             }
                         }
