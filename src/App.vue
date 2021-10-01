@@ -3,7 +3,7 @@
     <Header/>
     
     <main>
-      <Hero :heroUrl="`images/jumbotron.jpg`" :heroAlt="`Hero Image`"/>
+      <Hero :heroSrc="`images/jumbotron.jpg`" :heroAlt="`Hero Image`"/>
       <ComicsFirstSectionSeries/>
       <ComicsSecondSection/>
     </main>
