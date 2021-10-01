@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="hero">
-            <img :src="jumbotron" alt="Hero Image">
+            <img :src="heroUrl" :alt="heroAlt">
         </div>
     </section>
 
@@ -10,7 +10,7 @@
 <script>
 export default {
     name: 'Hero',
-    props: ['jumbotron']
+    props: ['heroUrl', 'heroAlt']
 }
 </script>
 
