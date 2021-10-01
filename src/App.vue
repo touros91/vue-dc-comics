@@ -3,7 +3,7 @@
     <Header/>
     
     <main>
-      <Hero/>
+      <Hero jumbotron="images/jumbotron.jpg"/>
       <ComicsFirstSectionSeries/>
       <ComicsSecondSection/>
     </main>
