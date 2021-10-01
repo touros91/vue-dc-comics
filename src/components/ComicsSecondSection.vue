@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'src/assets/style/General.scss';
+@import '../assets/style/General.scss';
     .second-section {
         background-color: $mainColor;
         padding: 20px;
